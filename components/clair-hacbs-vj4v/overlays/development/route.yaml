@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: clair-hacbs-vj4v
     app.kubernetes.io/part-of: hacbs
-  name: clair-hacbs-vj4vnmj0
+  name: clair-hacbs-vj4v1fwm
 spec:
   port:
     targetPort: 8080
