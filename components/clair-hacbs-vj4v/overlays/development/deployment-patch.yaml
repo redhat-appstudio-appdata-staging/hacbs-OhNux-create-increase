@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: clair-hacbs-vj4v
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
