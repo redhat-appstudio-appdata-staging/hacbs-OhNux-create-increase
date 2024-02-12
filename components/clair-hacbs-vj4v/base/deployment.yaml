@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: hacbs
   name: clair-hacbs-vj4v
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: clair-hacbs-vj4v
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/jsztuka-tenant/hacbs/clair-hacbs-vj4v@sha256:cd7cb101ada458544229b707b136c0deec651320d62d5f0831599bffeb22774c
         imagePullPolicy: Always
         name: container-image
         ports:
